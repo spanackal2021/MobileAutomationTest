@@ -1,0 +1,332 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6780049999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Create a new recurring(3 days a week) meeting, and make sure it doesn\u0027t repeat on successive days",
+        "description": "",
+        "id": "create-a-recurring-meeting-using-native-android/ios-calendar-app.;create-a-new-recurring(3-days-a-week)-meeting,-and-make-sure-it-doesn\u0027t-repeat-on-successive-days;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3915648098,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8866659912,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the Calendar App",
+            "match": {
+              "location": "StepDefinition.iHaveLaunchedTheCalendarApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2316862,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to set a meeting for Monday",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Monday",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.itIsNotADay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2389468885,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Meeting is not repeated on successive days",
+            "match": {
+              "location": "StepDefinition.meetingIsNotRepeatedOnSuccessiveDays()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592211116,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to book a meeting with the title “Recurring-Team Catch Up”",
+            "match": {
+              "location": "StepDefinition.iWantToBookAMeetingWithTheTitleRecurringTeamCatchUp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19889423814,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Set Meeting duration as 1 and 30 in the evening",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                },
+                {
+                  "val": "30",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition.setMeetingDurationAsHoursAndMinutesInTheEvening(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3047950931,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I invite 2 of people",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinition.iInviteNumberOfInviteesOfPeople(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 788218847,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I save the meeting",
+            "match": {
+              "location": "StepDefinition.iSaveTheMeeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4435525358,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Check if the meeting is created as expected",
+            "match": {
+              "location": "StepDefinition.iCheckIfTheMeetingIsCreatedAsExpected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5521440213,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Create a new recurring(3 days a week) meeting, and make sure it doesn\u0027t repeat on successive days",
+        "description": "",
+        "id": "create-a-recurring-meeting-using-native-android/ios-calendar-app.;create-a-new-recurring(3-days-a-week)-meeting,-and-make-sure-it-doesn\u0027t-repeat-on-successive-days;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3817277521,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7072044589,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the Calendar App",
+            "match": {
+              "location": "StepDefinition.iHaveLaunchedTheCalendarApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120728,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to set a meeting for Sunday",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunday",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.itIsNotADay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2206395371,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Meeting is not repeated on successive days",
+            "match": {
+              "location": "StepDefinition.meetingIsNotRepeatedOnSuccessiveDays()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 570150008,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to book a meeting with the title “Recurring-Team Catch Up”",
+            "match": {
+              "location": "StepDefinition.iWantToBookAMeetingWithTheTitleRecurringTeamCatchUp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18711076374,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Set Meeting duration as 1 and 00 in the evening",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                },
+                {
+                  "val": "00",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition.setMeetingDurationAsHoursAndMinutesInTheEvening(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1482247637,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I invite 1 of people",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinition.iInviteNumberOfInviteesOfPeople(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1888699886,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I save the meeting",
+            "match": {
+              "location": "StepDefinition.iSaveTheMeeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2414573622,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Check if the meeting is created as expected",
+            "match": {
+              "location": "StepDefinition.iCheckIfTheMeetingIsCreatedAsExpected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create a recurring meeting using Native Android/iOS Calendar App.",
+    "description": "",
+    "id": "create-a-recurring-meeting-using-native-android/ios-calendar-app.",
+    "keyword": "Feature",
+    "uri": "AppiumLatest.feature"
+  }
+]

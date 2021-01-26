@@ -21,6 +21,10 @@ Mobile Test Automation Suite for Sending Meeting Invite using Google Calendar Ap
 ## Assumptions:
 1. Since the meeting has to be recurring for 3 days in the week , weekend days cannot be excluded, for example if the user wants to set a meeting on next Tuesday the recurring days would be Thursday and Saturday.
    Hence have made an assumption that weekends are not excluded from the list of days the user can schedule the meeting
+   
+1. Also since the meeting has been defined to be in the evening , the assumption is that the end time of the meeting would not go past 12 PM at midnight
+
+1. The test will be run on an Android Device
 
  
 ## Instruction:
